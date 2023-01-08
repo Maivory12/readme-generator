@@ -21,7 +21,7 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please select license that applies to this project.",
-        chioces: ["None","MIT","APACHE 2.0","BSD","GPLV2","GPLV3","ISC"]
+        chioces: ["None","MIT","APACHE 2.0","OTHER"]
     },
     {
         type: "input",
@@ -45,7 +45,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "Email",
+        name: "email",
         message: "Enter email address to provied a way to be reached for questions.",
     },
 ];
