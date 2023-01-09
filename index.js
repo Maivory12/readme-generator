@@ -21,21 +21,21 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please select license that applies to this project.",
-        choices: ["None","MIT","APACHE 2.0","OTHER"],
+        choices: ["None","MIT","OTHER"],
     },
     {
         type: "input",
         name: "installation",
-        message: "List the steps needed to install your project.",
+        message: "What needs to be installed for your project?",
     },
     {
         type: "input",
         name: "usage",
-        message: "Enter the languages or technologies associated with your project.",
+        message: "Enter the languages and technologies associated with your project.",
     },
     {
         type: "input",
-        name: "contribution",
+        name: "contributors",
         message: "Please list any contributers to your project.",
     },
     {

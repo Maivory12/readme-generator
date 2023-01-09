@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
-    return `\n*[License](#license)\n`;
+    return`* [License](#license)`;
   }
   return ""; 
 
@@ -23,17 +23,18 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 
   if (license !== "none"){
-    return `##License 
-    Licensed under ${license} license`
+    return `## License 
+  Licensed under ${license} license`
   }
 }
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
   ## Table of Contents
   * [Description](#description)
-  * [License](#license)
+  ${renderLicenseLink(data.license)}
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributors](#contributors)
@@ -41,10 +42,9 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   ## Description
   ${data.description}
-  ## License Information
-  ${data.license}
-  ## How to install Application:
-  ${data.installiation}
+  ${renderLicenseSection(data.license)}
+  ## What to install for Application:
+  ${data.installation}
   ## How to Use This Application:
   ${data.usage}
   ## Contributors
