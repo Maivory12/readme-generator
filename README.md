@@ -14,7 +14,7 @@
   Licensed under None license
   ## What to install for Application:
   The README generator requires installation of Node.js. Users must also have access to a IDE such as Visual Studio Code with access to the terminal or access to GitBash/Command Line Interface to run Node. Inquirer npm must also be installed.
-  ## How to Use This Application:
+  ## Usage:
   Json, javascript, node, and markdown
   ## Contributors
   N/A

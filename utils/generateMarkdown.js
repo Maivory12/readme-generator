@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
   ## What to install for Application:
   ${data.installation}
-  ## How to Use This Application:
+  ## Usage:
   ${data.usage}
   ## Contributors
   ${data.contributors}
