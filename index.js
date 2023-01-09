@@ -21,7 +21,7 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please select license that applies to this project.",
-        chioces: ["None","MIT","APACHE 2.0","OTHER"]
+        choices: ["None","MIT","APACHE 2.0","OTHER"],
     },
     {
         type: "input",
@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log("README.md file is being created")
-        writeToFile("./generatedMarkdown.md/README.md", generateMarkdown({...response}))
+        writeToFile("./generatedMarkdown.md", generateMarkdown({...response}))
     });
 }
 
