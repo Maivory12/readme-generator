@@ -52,7 +52,8 @@ function generateMarkdown(data) {
   ## Testing
   ${data.test}
   ## Questions
-  Please send your questions [here]:${data.email}
+  Please send your questions here:${data.email} or visit [github/${data.github}](https://github.com/${data.github})
+
 `;
 }
 
