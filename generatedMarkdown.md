@@ -13,13 +13,13 @@
   ## License 
   Licensed under None license
   ## What to install for Application:
-  Gitbash/ command line interface, Node.js, VS Code, and inquirer npm
+  The README generator requires installation of Node.js. Users must also have access to a IDE such as Visual Studio Code with access to the terminal or access to GitBash/Command Line Interface to run Node. Inquirer npm must also be installed.
   ## Usage:
-  Json, Javascript, Node, and Markdown
+  Json, javascript, node, and markdown
   ## Contributors
   N/A
   ## Testing
   N/A
   ## Questions
-  Please send your questions here:Maivory12@icloud.com or visit [github/maivory12](https://github.com/maivory12)
+  Please send your questions here:Maivory12@icloud.com  or visit [github/Maivory12](https://github.com/Maivory12)
 

@@ -8,6 +8,7 @@
   * [Contributors](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
+  * [LiveApp](#liveapp)
   ## Description
   Application that allows you to create a professional readme.md document
   ## License 
@@ -21,4 +22,12 @@
   ## Testing
   N/A
   ## Questions
-  Please send your questions [here]:Maivory12@icloud.com
+  Please send your questions [here]:Maivory12@icloud.com 
+
+  ## LiveApp
+  Video that shows how to use the README Generator.
+
+[Screencastify Recording](https://drive.google.com/file/d/180p-HAa9GJWyyLO6iKtvf7riWkgGJgHx/view)
+
+
+
